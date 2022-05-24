@@ -13,7 +13,7 @@
 |
 */
 $router->group(
-    ['prefix' => 'api/v1'],
+    ['prefix' => '/'],
     function () use ($router) {
         $router->group(['prefix' => 'healthcheck'], function () use ($router) {
 
